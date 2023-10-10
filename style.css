@@ -47,7 +47,7 @@ a:hover {
 }
 
 .content_box {
-  min-height: 80vh;
+  min-height: 100vh;
   width: 80vw;
   margin: auto;
   background-color:blanchedalmond;
@@ -61,6 +61,7 @@ footer {
   color: white;
   height: 2em;
   position: fixed;
+  bottom: 0;
   height: 4rem;
   text-align: center;
 }
@@ -71,6 +72,15 @@ footer {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 600;
+}
+
+.name_header {
+  border-bottom: 2px solid black;
+  width:fit-content;
+  /* padding: 1.5rem 0 0 1rem; */
+  position: absolute;
+  left: 13%;
+  top: 10%
 }
