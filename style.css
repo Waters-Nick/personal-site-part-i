@@ -1,6 +1,7 @@
 /* Start CSS */
 
 body {
+  display: block;
   background-color: rgb(5, 149, 5);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   /* margin: 0;
