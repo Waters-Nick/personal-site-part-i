@@ -157,3 +157,8 @@ p {
   margin-bottom: 2rem;
   padding: 1rem;
 }
+
+.portfolio_proj_header {
+  text-decoration: underline double;
+  padding-bottom: 5px;
+}
