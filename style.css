@@ -93,6 +93,13 @@ h2 {
   font-weight: 400;
 }
 
+h3 {
+  font-size: 32px;
+  font-weight: 200;
+  text-decoration: underline;
+  padding-bottom: 25px;
+}
+
 .page_title {
   border-bottom: 2px solid black;
   width:fit-content;
@@ -163,8 +170,19 @@ p {
 }
 
 .portfolio_pic {
-  float:left;
   margin: 1% 2% 0 0;
   border: 1px solid black;
   border-radius: 10px;
+}
+
+#headshot {
+  height: 400px;
+  width: 400px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+li {
+  font-size: 22px;
+  margin-left: 5%;
 }
