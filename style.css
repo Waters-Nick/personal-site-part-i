@@ -145,8 +145,15 @@ p {
 .portfolio_info {
   display:flex;
   flex-direction: column;
+  padding-top: 6rem;
 }
 
 .portfolio_proj {
-  border: 1px solid black;
+  border: 3px solid goldenrod;
+  background-color: whitesmoke;
+  min-height: 10rem;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
