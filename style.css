@@ -48,6 +48,8 @@ a:hover {
 }
 
 .content_box {
+  /* display:flex;
+  flex-direction: column; */
   min-height: 100vh;
   width: 80vw;
   margin: auto;
@@ -59,7 +61,7 @@ a:hover {
 .quote {
   font-size: 36px;
   font-style: italic;
-  padding: 7rem 2.9rem; 
+  padding: 7rem 2rem; 
 }
 
 footer {
@@ -84,16 +86,37 @@ h1 {
   font-weight: 600;
 }
 
-.name_header {
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.page_title {
   border-bottom: 2px solid black;
   width:fit-content;
   /* padding: 1.5rem 0 0 1rem; */
   position: absolute;
   left: 13%;
-  top: 10%
+  top: 10%;
+  margin-bottom: 10rem;
 }
 
 .nav_links {
   margin-right: 2rem;
   margin-top: 1rem;
+}
+
+.about_section {
+  margin-bottom: 5rem;
+  padding-left: 2rem;
+  margin-top: 1rem; 
+}
+
+#about_start {
+  padding: 7rem 0 0 2rem; 
+}
+
+p {
+  font-size: 22px;
+  margin-top: 10px;
 }
