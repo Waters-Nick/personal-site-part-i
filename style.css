@@ -141,3 +141,12 @@ p {
 /* #hiking_pic {
   margin-bottom: 5rem;
 } */
+
+.portfolio_info {
+  display:flex;
+  flex-direction: column;
+}
+
+.portfolio_proj {
+  border: 1px solid black;
+}
